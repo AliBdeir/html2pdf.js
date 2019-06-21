@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/eKoopmans/html2pdf",
   "dependencies": {
-    "es6-promise": "^4.2.5",
     "html2canvas": "hakimio/html2canvas#fix-package-json",
     "jspdf": "hakimio/jspdf#custom-build"
   },
