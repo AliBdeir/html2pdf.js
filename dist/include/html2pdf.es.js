@@ -3,7 +3,6 @@
  * Copyright (c) 2019 Erik Koopmans
  * Released under the MIT License.
  */
-import 'es6-promise/auto';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 

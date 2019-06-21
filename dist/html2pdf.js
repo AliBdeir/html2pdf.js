@@ -4,10 +4,10 @@
  * Released under the MIT License.
  */
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('es6-promise/auto'), require('jspdf'), require('html2canvas')) :
-	typeof define === 'function' && define.amd ? define(['es6-promise/auto', 'jspdf', 'html2canvas'], factory) :
-	(global.html2pdf = factory(null,global.jsPDF,global.html2canvas));
-}(this, (function (auto,jsPDF,html2canvas) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('jspdf'), require('html2canvas')) :
+	typeof define === 'function' && define.amd ? define(['jspdf', 'html2canvas'], factory) :
+	(global.html2pdf = factory(global.jsPDF,global.html2canvas));
+}(this, (function (jsPDF,html2canvas) { 'use strict';
 
 jsPDF = jsPDF && jsPDF.hasOwnProperty('default') ? jsPDF['default'] : jsPDF;
 html2canvas = html2canvas && html2canvas.hasOwnProperty('default') ? html2canvas['default'] : html2canvas;

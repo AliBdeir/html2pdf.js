@@ -7,7 +7,6 @@
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-require('es6-promise/auto');
 var jsPDF = _interopDefault(require('jspdf'));
 var html2canvas = _interopDefault(require('html2canvas'));
 
